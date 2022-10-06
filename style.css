@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.frame, .terminal, .getMoney {
+    margin-top: 40px;
+}
+.banknote, .amount, .status, .frame button, .writeNumber, .toGet {
+    margin-top: 6px;
+}
+

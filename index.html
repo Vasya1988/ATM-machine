@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>Test</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="mode">
+            <span>Настройка кассеты: </span>
+            <div class="banknote">
+                <span>Номинал банкнот</span>
+                <select class="selectBanknote" name="" id="">
+                    <option>Выберите номинал</option>
+                    <option value="10">10</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="500">500</option>
+                    <option value="1000">1000</option>
+                    <option value="2000">2000</option>
+                    <option value="5000">5000</option>
+                </select>
+            </div>
+
+            <div class="amount">
+                <span>Количество купюр: </span>
+                <input class="amountPage" type="text" name="" id="">
+            </div>
+            
+            <div class="status">
+                <span>Статус кассеты :</span>
+                <select class="statusPage" name="" id="">
+                    <option value="Выберите статус">Выберите статус</option>
+                    <option value="Исправен">Исправен</option>
+                    <option value="Неисправен">Неисправен</option>
+                </select>
+            </div>
+            <button class="addBanknote">Добавить кассету</button>
+        </div>
+        
+        <div class="terminal">
+            <div class="buttons">
+                
+            </div>
+            <div class="writeNumber">
+                <span>Напишите сумму</span>
+                <input class="getSum" type="text" name="" id="">
+            </div>
+            <button class="toGet">Выдать</button>
+        </div>
+
+        <div class="getMoney">
+            <span class="done" >Выдано: </span>
+        </div>
+    </div>
+</body>
+</html>
